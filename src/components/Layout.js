@@ -19,30 +19,7 @@ const TemplateWrapper = ({ children }) => (
     `}
     render={data => (
       <div>
-        <Helmet
-          link={[
-            {
-              href:
-                "https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css",
-              rel: "stylesheet",
-              type: "text/css"
-            }
-          ]}
-          script={[
-            {
-              type: "text/javascript",
-              url: "",
-              id: "snipcart",
-              "data-api-key":
-                "ZDM0Nzg3ZGItNjNhNy00MmJmLTg3NzUtN2VmMTM4YjZmNmZiNjM2ODM3MTkyMzExODAwNjk5",
-              src: "https://cdn.snipcart.com/scripts/2.0/snipcart.js"
-            },
-            {
-              type: "text/javascript",
-              src:
-                "https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"
-            }
-          ]}>
+        <Helmet>
           <html lang="en" />
           <title>{data.site.siteMetadata.title}</title>
           <meta name="description" content={data.site.siteMetadata.description} />

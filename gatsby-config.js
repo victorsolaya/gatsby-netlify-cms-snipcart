@@ -65,6 +65,12 @@ module.exports = {
       },
     },
     {
+      resolve: 'gatsby-plugin-snipcart',
+      options: {
+        apiKey: 'ZDM0Nzg3ZGItNjNhNy00MmJmLTg3NzUtN2VmMTM4YjZmNmZiNjM2ODM3MTkyMzExODAwNjk5'
+      },
+    },
+    {
       resolve:'gatsby-plugin-purgecss', // purges all unused/unreferenced css rules
       options: {
         develop: true,            // Activates purging in npm run develop
