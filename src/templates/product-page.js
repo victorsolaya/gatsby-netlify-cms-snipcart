@@ -38,7 +38,7 @@ export const ProductTemplate = ({
               data-item-image={image}
               data-item-name={title}
               data-item-price={price}
-              data-item-url={`/products/${path}`}>
+              data-item-url={`https://goofy-chandrasekhar-f0defd.netlify.com/products/${path}`}>
               Add to Cart
             </button>
 
@@ -72,14 +72,16 @@ ProductTemplate.propTypes = {
 
 const Product = ({ data }) => {
   const { markdownRemark: post } = data
-  const { description,
+  const {
+    description,
     price,
     image,
     tags,
     title,
     path,
     id,
-    date} = post.frontmatter;
+    date
+  } = post.frontmatter
 
   return (
     <Layout>
@@ -87,14 +89,9 @@ const Product = ({ data }) => {
         content={post.html}
         contentComponent={HTMLContent}
         helmet={
-          <Helmet
-            titleTemplate="%s | Product"
-            >
+          <Helmet titleTemplate="%s | Product">
             <title>{`${title}`}</title>
-            <meta
-              name="description"
-              content={`${description}`}
-            />
+            <meta name="description" content={`${description}`} />
           </Helmet>
         }
         description={description}
