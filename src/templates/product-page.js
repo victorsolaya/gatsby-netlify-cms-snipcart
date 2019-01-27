@@ -38,7 +38,7 @@ export const ProductTemplate = ({
               data-item-image={image}
               data-item-name={title}
               data-item-price={price}
-              data-item-url={`products/${path}`}>
+              data-item-url={`/products/${path}`}>
               Add to Cart
             </button>
 
