@@ -5,7 +5,7 @@ date: 2018-07-21
 id: 2
 price: 7.00
 image: "bow-ties"
-path: "/bow-ties/"
+path: "bow-ties/"
 description: "The bow-tie (not to be confused with the tae bo) is an aphrodisiac worn by male humans attempting to win one or more mates."
 ---
 

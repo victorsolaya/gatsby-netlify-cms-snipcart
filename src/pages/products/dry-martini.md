@@ -5,7 +5,7 @@ date: 2018-07-21
 id: 3
 price: 8.50
 image: "dry-martini"
-path: "/dry-martini/"
+path: "dry-martini/"
 description: "The taste of excellence."
 ---
 
