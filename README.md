@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/f1d5c912-72a9-430b-a010-821e8efbe329/deploy-status)](https://app.netlify.com/sites/goofy-chandrasekhar-f0defd/deploys)
+
 # Gatsby + Netlify CMS + Snipcart Starter
 
 **Note:** This starter uses [Gatsby v2](https://www.gatsbyjs.org/blog/2018-09-17-gatsby-v2/).
